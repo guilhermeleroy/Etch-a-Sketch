@@ -17,10 +17,10 @@
         <div class="content">
             <div class="board"></div>
             <div class="buttons">
-                <button>BLACK</button>
-                <button>ERASE</button>
-                <button>RANDOM</button>
-                <button>RESET</button>
+                <button onclick="changeColor('black')">BLACK</button>
+                <button onclick="changeColor('white')">ERASE</button>
+                <button onclick="changeColor('random')">RANDOM</button>
+                <button onclick="makeBoard(16)">RESET</button>
             </div>
             <div>
                 <input type="text" placeholder="Size of the Board" value="16">
